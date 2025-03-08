@@ -23,7 +23,6 @@ const RouterComponents = () => {
   const hiddenNavbarFooter =
     location.pathname !== "/login" && location.pathname !== "/register";
   const hiddenNavbar =
-    location.pathname !== "/admin" &&
     location.pathname !== "/dashboard" &&
     location.pathname !== "/dashboard/manage-books" &&
     location.pathname !== "/dashboard/add-new-book" &&
