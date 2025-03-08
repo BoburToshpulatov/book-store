@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import getBaseUrl from "../../utils/baseUrl";
+import getBaseUrl from "../../utils/baseURL.js";
 import { MdIncompleteCircle } from "react-icons/md";
 import RevenueChart from "./RevenueChart";
 
