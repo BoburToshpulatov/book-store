@@ -9,7 +9,7 @@ import {
 } from "../../../redux/features/books/books.Api";
 import Swal from "sweetalert2";
 import axios from "axios";
-import getBaseUrl from "../../../utils/baseUrl";
+import getBaseUrl from "../../../utils/baseURL.js";
 
 const UpdateBook = () => {
   const { id } = useParams();
